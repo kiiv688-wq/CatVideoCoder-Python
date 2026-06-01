@@ -28,7 +28,7 @@ This program **does not save configuration**. Each time you run it, you must man
 🚀 Building from Source
 Quick Start
 # 1. Clone repository
-git clone https://github.com/your-username/CatVideoCoder.git
+git clone https://github.com/kiiv688-wq/CatVideoCoder-Python.git
 cd CatVideoCoder
 
 # 2. Create and activate virtual environment
@@ -99,13 +99,10 @@ chmod +x "build(MacOS).sh"
 
 🪟 Windows
 Prerequisites
-
-    MSYS2 with MinGW64 environment
-
-pip install -r requirements.txt
+MSYS2 with MinGW64 environment
+pip install -r requirements.tx
 
 ---
-
 ❓ Troubleshooting
 
  | Error/Issue | Solution |
