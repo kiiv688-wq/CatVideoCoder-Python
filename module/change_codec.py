@@ -21,6 +21,7 @@ def change_codec(file, format_type, codec):
             else:
                 pass
             subprocess.run(["ffmpeg", "-i", file, "-c:v", "libsvtav1", "-crf", "30", "-preset", "6", "-c:a", "pcm_s24le", file2])
+            subprocess.run(["rm", file])
     elif format_type=="Only Audio":
         p=Path(file)
         file2 = str(p.with_suffix(".wav"))
