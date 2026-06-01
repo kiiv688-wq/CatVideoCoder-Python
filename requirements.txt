@@ -1,0 +1,4 @@
+pycairo
+PyGObject
+nuitka
+yt-dlp
