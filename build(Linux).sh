@@ -6,7 +6,6 @@ if ! command -v patchelf &> /dev/null; then
     echo "⚠️ patchelf not found. Install: sudo apt install patchelf"
     exit 1
 fi
-pip install -r requirements.txt
 nuitka --standalone --onefile \
   --windows-icon-from-ico="favicon.ico" \
   --windows-console-mode=disable \

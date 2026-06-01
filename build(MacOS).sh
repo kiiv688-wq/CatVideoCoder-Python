@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 echo "🍎 Compiling for macOS..."
-pip install -r requirements.txt
 nuitka --standalone --macos-create-app-bundle \
   --macos-app-icon="favicon.icns" \
   --macos-app-name="CatVideoCoder" \

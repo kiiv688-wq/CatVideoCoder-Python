@@ -1,6 +1,5 @@
 @echo off
 echo 🪟 Compiling for Windows...
-pip install -r requirements.txt
 nuitka --standalone --onefile ^
   --windows-icon-from-ico="favicon.ico" ^
   --windows-console-mode=disable ^
