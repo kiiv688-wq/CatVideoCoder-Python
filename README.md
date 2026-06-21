@@ -29,7 +29,7 @@ This program **does not save configuration**. Each time you run it, you must man
 Quick Start
 # 1. Clone repository
 git clone https://github.com/kiiv688-wq/CatVideoCoder-Python.git
-cd CatVideoCoder
+cd CatVideoCoder-Pyhton
 
 # 2. Create and activate virtual environment
 python -m venv .venv
